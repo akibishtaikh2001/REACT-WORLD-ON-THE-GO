@@ -7,7 +7,7 @@ const Countries = ({countriesPromise}) => {
     
     return (
         <div>
-            <h1>Traveling Countries</h1>
+            <h1>Traveling Countries</h1> 
         </div>
     );
 };
