@@ -3,7 +3,7 @@ import './App.css'
 import Countries from './components/Countries/Countries'
 
 
-const countriesPromise = fetch('https://restcountries.com/v3.1/all?fields=name')
+const countriesPromise = fetch('https://restcountries.com/v3.1/all?fields=name,flags,independent,population,ccn3')
   .then(res => res.json())
 
 function App() {
