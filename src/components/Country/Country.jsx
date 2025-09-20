@@ -8,7 +8,7 @@ const Country = ({country}) => {
             <img src={country?.flags?.png} alt="" />
             <p>Independent: {country.independent ? 'Free' : 'Not Free' } </p>
             <p>Population: {country.population} </p>
-        </div>
+        </div> 
     );
 };
  
