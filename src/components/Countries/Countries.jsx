@@ -10,6 +10,7 @@ const Countries = ({ countriesPromise }) => {
     return (
         <div>
             <h1>Traveling Countries: {countries.length} </h1>
+            <h3>Traveled so far:  </h3>
             <div className='countries'>
                 {
                     countries.map(country => <Country key={country.ccn3} country={country} ></Country>)

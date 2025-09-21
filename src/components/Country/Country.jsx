@@ -21,7 +21,7 @@ const Country = ({ country }) => {
             <img src={country?.flags?.png} alt="" />
             <p>Independent: {country.independent ? 'Free' : 'Not Free'} </p>
             <p>Population: {country.population} </p>
-            <button  onClick={handleVisited}> {
+            <button className={visited ? 'btn-visited' : 'btn-not-visited' } onClick={handleVisited}> {
                 visited ? 'Visited' : 'Not Visited'
             } </button>
         </div>
