@@ -5,16 +5,16 @@ import './Countries.css'
 const Countries = ({ countriesPromise }) => {
 
     const countries = use(countriesPromise);
-    
+
 
     return (
         <div>
             <h1>Traveling Countries: {countries.length} </h1>
-           <div className='countries'>
-             {
-                countries.map(country => <Country key={country.ccn3} country={country} ></Country>)
-            }
-           </div>
+            <div className='countries'>
+                {
+                    countries.map(country => <Country key={country.ccn3} country={country} ></Country>)
+                }
+            </div>
         </div>
     );
 };
