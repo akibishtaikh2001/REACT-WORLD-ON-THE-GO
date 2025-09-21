@@ -16,7 +16,7 @@ const Countries = ({ countriesPromise }) => {
                     countries.map(country => <Country key={country.ccn3} country={country} ></Country>)
                 }
             </div>
-        </div> 
+        </div>  
     );
 };
 
