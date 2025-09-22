@@ -22,7 +22,7 @@ const Countries = ({ countriesPromise }) => {
 
     return (
         <div>
-            <h1>Traveling Countries: {countries.length} </h1>
+            <h1>You-Me & 2 babies Traveling Countries: {countries.length} </h1>
             <h3>Traveled so far: {visitedCountries.length}  </h3>
             <div className='visited_flags_container'>
                 {
@@ -31,7 +31,7 @@ const Countries = ({ countriesPromise }) => {
             </div>
             <ol>
                 {
-                    visitedCountries.map(country => <li> key={country.ccn3} {country.name.common} </li>)
+                    visitedCountries.map(country => <li key={country.ccn3}>  {country.name.common} </li>)
                 }
             </ol>
             <div className='countries'>
